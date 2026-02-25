@@ -1,0 +1,140 @@
+/* Base Styles */
+body {
+    margin:0;
+    font-family:'Open Sans', sans-serif;
+    background:#f4f4f9;
+    color:#333;
+    line-height:1.6;
+}
+
+h1, h2, h3 {
+    font-family:'Montserrat', sans-serif;
+    color:#6b42c1;
+}
+
+p {
+    font-size:1rem;
+}
+
+/* Navigation Bar */
+.navbar {
+    background:#ffffff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar .logo {
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    color:#6b42c1;
+    font-size:1.3rem;
+}
+
+.navbar .nav-links a {
+    margin-left:20px;
+    text-decoration:none;
+    color:#333;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.navbar .nav-links a:hover {
+    color:#6b42c1;
+}
+
+/* Sections */
+section {
+    padding:80px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+header {
+    text-align:center;
+    padding:120px 20px 80px 20px;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    color:white;
+    border-radius:0 0 50% 50%/0 0 10% 10%;
+    margin-bottom:40px;
+}
+
+header h1 {
+    font-size:3rem;
+}
+
+header p {
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+/* Cards */
+.cards {
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+    justify-content:center;
+}
+
+.card {
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    width:280px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover {
+    transform:translateY(-5px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.12);
+}
+
+.card a {
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 25px;
+    background:#6b42c1;
+    color:white;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.card a:hover {
+    background:#5331a0;
+}
+
+/* Buttons */
+.button {
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#6b42c1;
+    color:white;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.button:hover {
+    background:#5331a0;
+}
+
+/* Footer */
+footer {
+    text-align:center;
+    padding:40px 20px;
+    background:#6b42c1;
+    color:white;
+    font-size:0.9rem;
+    margin-top:50px;
+}
